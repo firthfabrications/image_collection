@@ -22,6 +22,7 @@ for bird in birds:
                         tag_mode='all',
                         tags=bird,
                         extras='url_c',
+                        privacy_filters = 1,
                         per_page=500,         
                         sort='relevance')
 
